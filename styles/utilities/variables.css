@@ -1,0 +1,8 @@
+:root {
+  --primary-color: hsl(196, 77%, 55%);
+  --secondary-color: #181818;
+  --text-color: #ffffff;
+  --inactive-color: grey;
+
+  --default-background-color: whitesmoke;
+}

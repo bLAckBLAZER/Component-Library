@@ -1,0 +1,33 @@
+.bg-ws {
+  background-color: whitesmoke;
+}
+
+.txt-ws {
+  color: whitesmoke;
+}
+
+.txt-pink {
+  color: pink;
+}
+
+.txt-purple {
+  color: purple;
+}
+
+/* border colors */
+
+.stl-bd-purple {
+  color: purple;
+}
+
+.stl-bd-pink {
+  color: pink;
+}
+
+.stl-bd-blue {
+  color: blue;
+}
+
+.stl-bd-white {
+  color: white;
+}

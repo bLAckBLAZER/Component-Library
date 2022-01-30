@@ -1,0 +1,22 @@
+.stl-avatar {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0.5rem;
+  background-color: var(--default-background-color);
+  object-fit: cover;
+}
+
+.stl-av-sm {
+  width: 40px;
+  height: 40px;
+}
+
+.stl-av-lg {
+  width: 90px;
+  height: 90px;
+}
+
+.stl-av-square {
+  border-radius: 0;
+}
