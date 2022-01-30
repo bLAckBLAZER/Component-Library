@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url(./styles/styles.css);
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  width: 20%;
+  height: 100vh;
+}
+
+.content {
+  position: relative;
+  left: 22%;
+}
+
+.title {
+  font-size: 1.8rem;
+  padding: 1rem;
+  /* color: var(--text-color); */
+  color: var(--primary-color);
+}
+
+.heading {
+  color: var(--text-color);
+  font-size: 1.3rem;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.sub-heading {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.sub-heading-link {
+  color: var(--inactive-color);
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
+
+.active {
+  color: var(--text-color);
+}
