@@ -1,4 +1,4 @@
-.stl-avatar {
+.avatar {
   border-radius: 50%;
   width: 70px;
   height: 70px;
@@ -7,16 +7,16 @@
   object-fit: cover;
 }
 
-.stl-av-sm {
+.avatar-sm {
   width: 40px;
   height: 40px;
 }
 
-.stl-av-lg {
+.avatar-lg {
   width: 90px;
   height: 90px;
 }
 
-.stl-av-square {
+.avatar-square {
   border-radius: 0;
 }
