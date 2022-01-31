@@ -1,0 +1,54 @@
+.badge-container {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  background: var(--primary-color);
+  color: white;
+}
+
+.badge-md {
+  font-size: 1rem;
+}
+
+.badge-lg {
+  font-size: 1.3rem;
+}
+
+.badge-status {
+  bottom: 0.8rem;
+  right: 0.6rem;
+  top: auto;
+  left: auto;
+  height: 0.1rem;
+  width: 0.1rem;
+  border: 3px solid white;
+}
+
+.badge-status.badge-online {
+  background-color: var(--badge-status-online);
+}
+
+.badge-status.badge-offline {
+  background-color: var(--badge-status-offline);
+}
+
+.badge-status.badge-busy {
+  background-color: var(--badge-status-busy);
+}
+
+.badge-icon {
+  top: -0.5rem;
+  right: -0.5rem;
+  left: auto;
+  bottom: auto;
+  padding: 0.25rem;
+}
