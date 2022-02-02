@@ -39,3 +39,7 @@
 .btn-success {
   background-color: var(--success-green);
 }
+
+.btn-icon i {
+  margin-right: 0.5rem;
+}
