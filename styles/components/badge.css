@@ -33,15 +33,15 @@
   border: 3px solid white;
 }
 
-.badge-status.badge-online {
+.badge-online {
   background-color: var(--badge-status-online);
 }
 
-.badge-status.badge-offline {
+.badge-offline {
   background-color: var(--badge-status-offline);
 }
 
-.badge-status.badge-busy {
+.badge-busy {
   background-color: var(--badge-status-busy);
 }
 
