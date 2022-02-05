@@ -1,20 +1,20 @@
 .avatar {
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: var(--size-22);
+  height: var(--size-22);
   margin: 0.5rem;
   background-color: var(--default-background-color);
   object-fit: cover;
 }
 
 .avatar-sm {
-  width: 40px;
-  height: 40px;
+  width: var(--size-15);
+  height: var(--size-15);
 }
 
 .avatar-lg {
-  width: 90px;
-  height: 90px;
+  width: var(--size-27);
+  height: var(--size-27);
 }
 
 .avatar-square {
