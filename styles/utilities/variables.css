@@ -48,4 +48,8 @@
   --size-2: 0.125rem;
   --size-1: 1px;
   --size-0: 0;
+
+  /* Color variables */
+
+  --pure-white: #ffffff;
 }
