@@ -1,0 +1,45 @@
+.btn {
+  min-width: 1rem;
+  max-width: max-content;
+  padding: 0.7rem 1.2rem;
+  background-color: var(--default-btn-color);
+  color: var(--text-color);
+  border: none;
+  cursor: pointer;
+  margin: 0.5rem;
+  border-radius: var(--radius);
+  font-weight: var(--weight-semibold);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  border: 1px solid var(--primary-color);
+  background-color: var(--pure-white);
+  color: var(--primary-color);
+}
+
+.btn-link {
+  border: 1px solid var(--primary-color);
+  background-color: var(--pure-white);
+  color: var(--primary-color);
+}
+
+.btn-link a{
+  font-weight: var(--weight-light);
+  color: var(--primary-color);
+}
+
+.btn-alert {
+  background-color: var(--error-red);
+}
+
+.btn-success {
+  background-color: var(--success-green);
+}
+
+.btn-icon i {
+  margin-right: 0.5rem;
+}

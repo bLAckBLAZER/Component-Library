@@ -52,4 +52,8 @@
   /* Color variables */
 
   --pure-white: #ffffff;
+
+  --default-btn-color: #1e293b;
+  --error-red: #dc2626;
+  --success-green: #22c55e;
 }
