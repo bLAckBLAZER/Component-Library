@@ -1,5 +1,6 @@
 @import url(./reset/reset.css);
 @import url(./utilities/colors.css);
+@import url(./components/components.css);
 
 :root {
   --primary-color: hsl(196, 77%, 55%);
