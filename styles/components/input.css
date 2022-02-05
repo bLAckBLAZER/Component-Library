@@ -1,0 +1,39 @@
+.input-container {
+  margin: 0 0.5rem 0.8rem 0.5rem;
+  color: var(--secondary-color);
+  font-size: 0.8rem;
+}
+
+.input {
+  padding: 0.5rem;
+  outline: 0;
+  border: 1px solid var(--inactive-color);
+  border-radius: var(--radius);
+  margin: 0.5rem 0;
+  width: 80%;
+}
+
+.input:focus {
+  border-color: var(--primary-color);
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.input-error {
+  color: var(--error-red);
+}
+
+.input-error > .input {
+  border-color: var(--error-red);
+}
+
+.input-success {
+  color: var(--success-green);
+}
+
+.input-success > .input {
+  border-color: var(--success-green);
+}
