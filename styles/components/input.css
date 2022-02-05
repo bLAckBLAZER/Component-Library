@@ -29,11 +29,3 @@
 .input-error > .input {
   border-color: var(--error-red);
 }
-
-.input-success {
-  color: var(--success-green);
-}
-
-.input-success > .input {
-  border-color: var(--success-green);
-}
