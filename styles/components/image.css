@@ -1,0 +1,26 @@
+.img-res {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.img {
+  height: 9.375rem;
+  width: 9.375rem;
+  object-fit: cover;
+  margin: 0.5rem;
+}
+
+.img-sm {
+  height: 6.25rem;
+  width: 6.25rem;
+}
+
+.img-lg {
+  height: 15.625rem;
+  width: 15.625rem;
+}
+
+.img-round {
+  border-radius: 50%;
+}
