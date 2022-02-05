@@ -17,13 +17,13 @@
 
 .btn-secondary {
   border: 1px solid var(--primary-color);
-  background-color: white;
+  background-color: var(--pure-white);
   color: var(--primary-color);
 }
 
 .btn-link {
   border: 1px solid var(--primary-color);
-  background-color: white;
+  background-color: var(--pure-white);
   color: var(--primary-color);
 }
 
