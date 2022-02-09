@@ -4,14 +4,14 @@
   flex-direction: column;
   margin: 1rem 0.5rem;
   max-height: 30%;
-  max-width: 360px;
-  min-width: 200px;
+  max-width: 22.5rem;
+  min-width: 12.5rem;
   border-radius: var(--radius);
   font-family: Roboto, sans-serif;
 }
 
 .card-ecom {
-  width: 210px;
+  width: 13.125rem;
 }
 
 .card-body {
@@ -51,7 +51,7 @@
 
 /* Shift heading up by its total height */
 .card-txt-over-img .card-heading {
-  margin-top: -75px;
+  margin-top: -4.687rem;
   background-color: var(--text-overlay-bg);
 }
 
@@ -67,7 +67,7 @@
 }
 
 .card-horizontal {
-  max-width: 800px;
+  max-width: 50rem;
 }
 
 .card-horizontal .card-body {
@@ -75,8 +75,8 @@
 }
 
 .card-horizontal .card-img {
-  height: 100px;
-  width: 100px;
+  height: 6.25rem;
+  width: 6.25rem;
 }
 
 .card-horizontal .card-text {
