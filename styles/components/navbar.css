@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 0;
-  background-color: var(--pure-white);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 .nav-heading {
