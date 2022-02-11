@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  background-color: var(--pure-white);
+}
+
+.nav-heading {
+  padding: 1rem 0.5rem;
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: var(--weight-semibold);
+}
+
+.nav-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-action-item {
+  padding: 1rem 0.5rem;
+  font-weight: var(--weight-medium);
+}
+
+.nav-action-item:hover {
+  color: var(--primary-color);
+  font-weight: var(--weight-bold);
+}
