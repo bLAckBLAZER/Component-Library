@@ -22,5 +22,5 @@
 }
 
 .img-round {
-  border-radius: 50%;
+  border-radius: var(--radius-rounded);
 }
