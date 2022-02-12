@@ -11,7 +11,7 @@
   --radius: 4px;
   --radius-large: 6px;
   --radius-extra-large: 10px;
-  --radius-rounded: 9999px;
+  --radius-rounded: 50%;
 
   /* font weight */
   --weight-light: 300;
