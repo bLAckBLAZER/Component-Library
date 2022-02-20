@@ -1,38 +1,92 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&family=Roboto&family=Satisfy&display=swap");
 @import url(./styles/styles.css);
 
 .wrapper {
-  display: flex;
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  height: max-content;
 }
 
-.sidebar {
+.main-page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--pure-white);
+  color: var(--secondary-color);
+}
+
+.nav-heading {
+  font-family: "Satisfy", cursive;
+  text-decoration: underline;
+}
+
+/* Sidebar */
+
+.aside {
   display: flex;
   position: fixed;
   flex-direction: column;
-  background-color: var(--secondary-color);
+  /* margin-top: 3rem; */
+  /* padding: 3rem 0; */
   width: 20%;
   height: 100vh;
+  z-index: 10;
 }
+
+.aside-list {
+  height: 70vh;
+  overflow-y: scroll;
+  border-right: 1px solid var(--primary-color);
+}
+
+.aside-list::-webkit-scrollbar {
+  display: none;
+}
+
+.list-item {
+  padding: 0.8rem 0.5rem;
+  text-align: center;
+}
+
+.list-item:hover,
+.list-item:active {
+  color: var(--primary-color);
+}
+
+/* Content */
 
 .content {
   position: relative;
-  left: 22%;
+  padding-left: 30%;
+  /* padding-left: calc(30%); */
+  width: 100%;
 }
 
 .title {
   font-size: 1.8rem;
-  padding: 1rem;
-  /* color: var(--text-color); */
-  color: var(--primary-color);
+  padding: 1rem 0;
+  font-weight: var(--weight-bold);
+  color: var(--secondary-color);
 }
 
 .heading {
-  color: var(--text-color);
+  color: var(--secondary-color);
+
   font-size: 1.3rem;
-  padding: 1rem 1rem 0.5rem 1rem;
+  font-weight: var(--weight-semibold);
+  padding: 1rem 0 1rem 0;
 }
 
-.sub-heading {
+.component-info {
+  font-size: 1rem;
+}
+
+/* .sub-heading {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
 }
 
@@ -43,6 +97,40 @@
   text-decoration: none;
 }
 
+*/
 .active {
-  color: var(--text-color);
+  color: var(--primary-color);
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.examples {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.examples .badge-container {
+  margin: 0 1rem;
+}
+
+.examples-code {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  width: 100%;
+}
+
+.article {
+  padding: 1rem 0;
+  border-bottom: 1px solid #dadadaf3;
 }

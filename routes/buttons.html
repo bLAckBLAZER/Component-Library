@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/12af55b294.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../index.css" />
+
+    <title>Subtle UI</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar fixed">
+        <a href="./index.html" class="nav-heading">Subtle UI</a>
+        <ul class="nav-actions">
+          <li class="nav-action-item"><a href="#">Home</a></li>
+          <li class="nav-action-item"><a href="#">Docs</a></li>
+          <li class="nav-action-item"><a href="#">Source</a></li>
+        </ul>
+      </nav>
+      <main class="main-page">
+        <aside class="aside">
+          <ul class="aside-list">
+            <li class="list-item">
+              <a href="../index.html">Getting Started</a>
+            </li>
+            <li class="list-item"><a href="./avatar.html">Avatar</a></li>
+            <li class="list-item"><a href="./alert.html">Alert</a></li>
+            <li class="list-item"><a href="./badge.html">Badge</a></li>
+            <li class="list-item active">
+              <a href="./buttons.html">Buttons</a>
+            </li>
+            <li class="list-item"><a href="./card.html">Card</a></li>
+            <li class="list-item"><a href="./image.html">Image</a></li>
+            <li class="list-item"><a href="./input.html">Input</a></li>
+            <li class="list-item"><a href="./navbar.html">NavBar</a></li>
+            <li class="list-item"><a href="./snackbar.html">Snackbar</a></li>
+          </ul>
+        </aside>
+        <section class="content">
+          <div class="title">Buttons</div>
+          <div class="heading">Introduction</div>
+          <p class="component-info">
+            Buttons are the soul of an interactive Web Application. Buttons
+            allow users to take actions, and make choices, with a single tap
+          </p>
+
+          <article class="article">
+            <div class="heading">Simple buttons</div>
+            <p class="component-info">
+              By default the button will have a solid dark background and
+              semi-bold text. You can also use primary and secondary classes to
+              change its look.
+            </p>
+            <div class="examples">
+              <button class="btn">DEFAULT</button>
+
+              <button class="btn btn-primary">PRIMARY</button>
+
+              <button class="btn btn-secondary">SECONDARY</button>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253EDEFAULT%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESECONDARY%253C%252Fbutton%253E"
+                style="
+                  width: 673px;
+                  height: 262px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Alert and Success buttons</div>
+            <p class="component-info">
+              You can also create alert and success buttons...
+            </p>
+            <div class="examples">
+              <button class="btn btn-alert">Confirm</button>
+
+              <button class="btn btn-success">Submit</button>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-alert%2522%253EConfirm%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESubmit%253C%252Fbutton%253E"
+                style="
+                  width: 631px;
+                  height: 225px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Buttons with icons</div>
+            <p class="component-info">
+              To make your buttons look more informative you can also add icons
+              to it. We use font awesome icons in our component library.
+            </p>
+            <div class="examples">
+              <button class="btn btn-icon">
+                <i class="fas fa-shopping-cart"></i>
+                Add to cart
+              </button>
+
+              <button class="btn btn-secondary btn-icon">
+                <i class="fas fa-shopping-cart"></i>
+                Add to cart
+              </button>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
+                style="
+                  width: 597px;
+                  height: 336px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Buttons with links</div>
+            <p class="component-info">You can also create buttons with links</p>
+            <div class="examples">
+              <button class="btn btn-link">
+                <a href="#">link 1</a>
+              </button>
+              <button class="btn btn-link">
+                <a href="#">link 2</a>
+              </button>
+              <button class="btn btn-link">
+                <a href="#">link 3</a>
+              </button>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
+                style="
+                  width: 597px;
+                  height: 336px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

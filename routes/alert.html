@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/12af55b294.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../index.css" />
+
+    <title>Subtle UI</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar fixed">
+        <a href="./index.html" class="nav-heading">Subtle UI</a>
+        <ul class="nav-actions">
+          <li class="nav-action-item"><a href="#">Home</a></li>
+          <li class="nav-action-item"><a href="#">Docs</a></li>
+          <li class="nav-action-item"><a href="#">Source</a></li>
+        </ul>
+      </nav>
+      <main class="main-page">
+        <aside class="aside">
+          <ul class="aside-list">
+            <li class="list-item">
+              <a href="../index.html">Getting Started</a>
+            </li>
+            <li class="list-item"><a href="./avatar.html">Avatar</a></li>
+            <li class="list-item active"><a href="./alert.html">Alert</a></li>
+            <li class="list-item"><a href="./badge.html">Badge</a></li>
+            <li class="list-item"><a href="./buttons.html">Buttons</a></li>
+            <li class="list-item"><a href="./card.html">Card</a></li>
+            <li class="list-item"><a href="./image.html">Image</a></li>
+            <li class="list-item"><a href="./input.html">Input</a></li>
+            <li class="list-item"><a href="./navbar.html">NavBar</a></li>
+            <li class="list-item"><a href="./snackbar.html">Snackbar</a></li>
+          </ul>
+        </aside>
+        <section class="content">
+          <div class="title">Alerts</div>
+          <div class="heading">Introduction</div>
+          <p class="component-info">
+            Alerts, as name suggests, are typically used to alert the user about
+            some response or any event.
+          </p>
+
+          <article class="article">
+            <div class="heading">Types</div>
+            <p class="component-info">
+              We provide 4 types of alerts to be used: Info, Error, Warning and
+              Success
+            </p>
+            <div class="examples">
+              <div class="alert alert-primary">
+                <i class="fas fa-info-circle"></i>
+                <div class="alert-content">
+                  We have an announcement to make!
+                </div>
+                <i class="fas fa-times-circle"></i>
+              </div>
+
+              <div class="alert alert-error">
+                <i class="fas fa-info-circle"></i>
+                <div class="alert-content">
+                  There was an error while processing your request!
+                </div>
+                <i class="fas fa-times-circle"></i>
+              </div>
+
+              <div class="alert alert-warning">
+                <i class="fas fa-info-circle"></i>
+                <div class="alert-content">
+                  This property will soon be depricated!
+                </div>
+                <i class="fas fa-times-circle"></i>
+              </div>
+
+              <div class="alert alert-success">
+                <i class="fas fa-info-circle"></i>
+                <div class="alert-content">
+                  Your data is successfully saved!
+                </div>
+                <i class="fas fa-times-circle"></i>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert-content%2522%253E%250A%2520%2520%2520%2520We%2520have%2520an%2520announcement%2520to%2520make%21%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert-content%2522%253E%250A%2520%2520%2520%2520There%2520was%2520an%2520error%2520while%2520processing%2520your%2520request%21%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert-content%2522%253E%250A%2520%2520%2520%2520This%2520property%2520will%2520soon%2520be%2520depricated%21%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert-content%2522%253E%250A%2520%2520%2520%2520Your%2520data%2520is%2520successfully%2520saved%21%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                style="
+                  height: 746px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
