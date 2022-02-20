@@ -52,3 +52,7 @@
   bottom: auto;
   padding: 0.25rem;
 }
+
+.badge-text {
+  border-radius: 0;
+}

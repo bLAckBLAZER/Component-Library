@@ -17,9 +17,13 @@
       <nav class="navbar fixed">
         <a href="./index.html" class="nav-heading">Subtle UI</a>
         <ul class="nav-actions">
-          <li class="nav-action-item"><a href="#">Home</a></li>
-          <li class="nav-action-item"><a href="#">Docs</a></li>
-          <li class="nav-action-item"><a href="#">Source</a></li>
+          <li class="nav-action-item"><a href="../index.html">Home</a></li>
+          <li class="nav-action-item"><a href="../index.html">Docs</a></li>
+          <li class="nav-action-item">
+            <a href="https://github.com/bLAckBLAZER/Component-Library"
+              >Source</a
+            >
+          </li>
         </ul>
       </nav>
       <main class="main-page">
@@ -37,6 +41,9 @@
             <li class="list-item"><a href="./input.html">Input</a></li>
             <li class="list-item"><a href="./navbar.html">NavBar</a></li>
             <li class="list-item"><a href="./snackbar.html">Snackbar</a></li>
+            <li class="list-item">
+              <a href="./typography.html">Typography</a>
+            </li>
           </ul>
         </aside>
         <section class="content">
@@ -49,20 +56,346 @@
           </p>
 
           <article class="article">
-            <div class="heading">Default Avatar</div>
+            <div class="heading">Default Card</div>
             <p class="component-info">
-              By default the avatar will be rounded in shape
+              By default a card will have a image with some body text and a
+              footer at end.
             </p>
             <div class="examples">
-              <img src="https://picsum.photos/200" alt="" class="avatar" />
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-img">
+                    <img src="../images/sneaker.jpg" alt="" class="img-res" />
+                  </div>
+
+                  <div class="card-heading">
+                    <h2 class="card-title">Airmax 1</h2>
+                    <h4 class="card-subtitle">Nike</h4>
+                  </div>
+                  <p class="card-text">Rs. 6999/-</p>
+                </div>
+                <div class="card-footer">
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to cart</button>
+                  </div>
+
+                  <div class="card-icons">
+                    <i class="far fa-heart" aria-hidden="true"></i>
+                    <i class="fas fa-share-alt" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="examples-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=601&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520alt%253D%2522%2522%2520class%253D%2522avatar%2522%2520%252F%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fsneaker.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522img-res%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EAirmax%25201%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-subtitle%2522%253ENike%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253ERs.%25206999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 style="
-                  width: 631px;
-                  height: 188px;
+                  width: 733px;
+                  height: 597px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Card with badge</div>
+            <p class="component-info">
+              By default a card will have a image with some body text and a
+              footer at end.
+            </p>
+            <div class="examples">
+              <div class="card">
+                <div class="card-body badge-container">
+                  <div class="card-img">
+                    <img src="../images/sneaker.jpg" alt="" class="img-res" />
+                  </div>
+
+                  <div class="badge badge-text">NEW</div>
+                  <div class="card-heading">
+                    <h2 class="card-title">Airmax 1</h2>
+                    <h4 class="card-subtitle">Nike</h4>
+                  </div>
+                  <p class="card-text">Rs. 6999/-</p>
+                </div>
+                <div class="card-footer">
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to cart</button>
+                  </div>
+
+                  <div class="card-icons">
+                    <i class="far fa-heart" aria-hidden="true"></i>
+                    <i class="fas fa-share-alt" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2520badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fsneaker.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522img-res%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-text%2522%253ENEW%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EAirmax%25201%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-subtitle%2522%253ENike%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253ERs.%25206999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 616px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Card with dismiss</div>
+            <p class="component-info">
+              You can also add a dismiss(cancel) icon at the top right corner of
+              your card
+            </p>
+            <div class="examples">
+              <!-- Card with dismiss -->
+              <div class="card">
+                <div class="card-body badge-container">
+                  <div class="card-img">
+                    <img src="../images/sneaker.jpg" alt="" class="img-res" />
+                  </div>
+                  <i class="fas fa-times-circle card-icon-float"></i>
+                  <div class="card-heading">
+                    <h2 class="card-title">Airmax 1</h2>
+                    <h4 class="card-subtitle">Nike</h4>
+                  </div>
+                  <p class="card-text">Rs. 6999/-</p>
+                </div>
+                <div class="card-footer">
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to cart</button>
+                  </div>
+
+                  <div class="card-icons">
+                    <i class="far fa-heart" aria-hidden="true"></i>
+                    <i class="fas fa-share-alt" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2520badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fsneaker.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522img-res%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520card-icon-float%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EAirmax%25201%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-subtitle%2522%253ENike%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253ERs.%25206999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 597px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Card with text overlay</div>
+            <p class="component-info">
+              You can also show headings over your card by simply adding another
+              class card-txt-over-img. By default, it comes with a ligher shade
+              of primary color in the background.
+            </p>
+            <div class="examples">
+              <!-- Card with text overlay -->
+              <div class="card card-txt-over-img">
+                <div class="card-body">
+                  <div>
+                    <img src="../images/sneaker.jpg" alt="" class="img-res" />
+                  </div>
+                  <div class="card-heading">
+                    <h2 class="card-title">Airmax 1</h2>
+                    <h4 class="card-subtitle">Nike</h4>
+                  </div>
+                  <p class="card-text">Rs. 6999/-</p>
+                </div>
+                <div class="card-footer">
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to cart</button>
+                  </div>
+                  <div class="card-icons">
+                    <i class="far fa-heart" aria-hidden="true"></i>
+                    <i class="fas fa-share-alt" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-txt-over-img%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fsneaker.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522img-res%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EAirmax%25201%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-subtitle%2522%253ENike%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253ERs.%25206999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 560px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Card with only text</div>
+            <p class="component-info">
+              If you only need to show some piece of text in a card, we have you
+              covered. Simply put card-only-text class and you will have a card
+              with scrollable text area at your service.
+            </p>
+            <div class="examples">
+              <!-- Card with only text -->
+              <div class="card card-only-text">
+                <div class="card-body">
+                  <div class="card-img">
+                    <img src="./sneaker.jpg" alt="" class="img-res" />
+                  </div>
+                  <div class="card-heading">
+                    <h2 class="card-title">Airmax 1</h2>
+                    <h4 class="card-subtitle">Nike</h4>
+                  </div>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining
+                    essentially unchanged. It was popularised in the 1960s with
+                    the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently with desktop publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to cart</button>
+                  </div>
+                  <div class="card-icons">
+                    <i class="far fa-heart" aria-hidden="true"></i>
+                    <i class="fas fa-share-alt" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-only-text%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fsneaker.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522img-res%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EAirmax%25201%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-subtitle%2522%253ENike%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%250A%2520%2520%2520%2520%2520%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520industry%27s%250A%2520%2520%2520%2520%2520%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%250A%2520%2520%2520%2520%2520%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520scrambled%2520it%2520to%2520make%2520a%250A%2520%2520%2520%2520%2520%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%252C%250A%2520%2520%2520%2520%2520%2520but%2520also%2520the%2520leap%2520into%2520electronic%2520typesetting%252C%2520remaining%250A%2520%2520%2520%2520%2520%2520essentially%2520unchanged.%2520It%2520was%2520popularised%2520in%2520the%25201960s%2520with%250A%2520%2520%2520%2520%2520%2520the%2520release%2520of%2520Letraset%2520sheets%2520containing%2520Lorem%2520Ipsum%250A%2520%2520%2520%2520%2520%2520passages%252C%2520and%2520more%2520recently%2520with%2520desktop%2520publishing%2520software%250A%2520%2520%2520%2520%2520%2520like%2520Aldus%2520PageMaker%2520including%2520versions%2520of%2520Lorem%2520Ipsum.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 765px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Card with shadows</div>
+            <p class="component-info">
+              To make your cards even prettier, you can also add shadows to it
+              using card-shadow class
+            </p>
+            <div class="examples">
+              <!-- Card with shadow -->
+              <div class="card card-shadow">
+                <div class="card-body badge-container">
+                  <div class="card-img">
+                    <img src="../images/sneaker.jpg" alt="" class="img-res" />
+                  </div>
+
+                  <div class="badge badge-text">NEW</div>
+                  <div class="card-heading">
+                    <h2 class="card-title">Airmax 1</h2>
+                    <h4 class="card-subtitle">Nike</h4>
+                  </div>
+                  <p class="card-text">Rs. 6999/-</p>
+                </div>
+                <div class="card-footer">
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to cart</button>
+                  </div>
+
+                  <div class="card-icons">
+                    <i class="far fa-heart" aria-hidden="true"></i>
+                    <i class="fas fa-share-alt" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2520badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fsneaker.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522img-res%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-text%2522%253ENEW%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EAirmax%25201%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-subtitle%2522%253ENike%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253ERs.%25206999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 616px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Horizontal Card</div>
+            <p class="component-info">
+              For a compact view, you can also use horizontal card
+            </p>
+            <div class="examples">
+              <!-- horizontal card -->
+              <div class="card card-horizontal">
+                <div class="card-body">
+                  <div class="card-img">
+                    <img src="../images/sneaker.jpg" alt="" class="img-res" />
+                  </div>
+
+                  <div class="card-heading">
+                    <h2 class="card-title">Airmax 1</h2>
+                    <h4 class="card-subtitle">Nike</h4>
+                  </div>
+                  <p class="card-text">Rs. 6999/-</p>
+                </div>
+                <div class="card-footer">
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Add to cart</button>
+                  </div>
+
+                  <div class="card-icons">
+                    <i class="far fa-heart" aria-hidden="true"></i>
+                    <i class="fas fa-share-alt" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fsneaker.jpg%2522%2520alt%253D%2522%2522%2520class%253D%2522img-res%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EAirmax%25201%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-subtitle%2522%253ENike%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253ERs.%25206999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 597px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;

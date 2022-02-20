@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/12af55b294.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../index.css" />
+
+    <title>Subtle UI</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar fixed">
+        <a href="./index.html" class="nav-heading">Subtle UI</a>
+        <ul class="nav-actions">
+          <li class="nav-action-item"><a href="../index.html">Home</a></li>
+          <li class="nav-action-item"><a href="../index.html">Docs</a></li>
+          <li class="nav-action-item">
+            <a href="https://github.com/bLAckBLAZER/Component-Library"
+              >Source</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <main class="main-page">
+        <aside class="aside">
+          <ul class="aside-list">
+            <li class="list-item">
+              <a href="../index.html">Getting Started</a>
+            </li>
+            <li class="list-item"><a href="./avatar.html">Avatar</a></li>
+            <li class="list-item"><a href="./alert.html">Alert</a></li>
+            <li class="list-item"><a href="./badge.html">Badge</a></li>
+            <li class="list-item"><a href="./buttons.html">Buttons</a></li>
+            <li class="list-item"><a href="./card.html">Card</a></li>
+            <li class="list-item"><a href="./image.html">Image</a></li>
+            <li class="list-item active"><a href="./input.html">Input</a></li>
+            <li class="list-item"><a href="./navbar.html">NavBar</a></li>
+            <li class="list-item"><a href="./snackbar.html">Snackbar</a></li>
+            <li class="list-item">
+              <a href="./typography.html">Typography</a>
+            </li>
+          </ul>
+        </aside>
+        <section class="content">
+          <div class="title">Input</div>
+          <div class="heading">Introduction</div>
+          <p class="component-info">
+            Inputs will most likely be used in forms when some input is needed
+            from a user for some processing. We also have error input style to
+            alert the user if the input is wrong or does not match the
+            requirements.
+          </p>
+
+          <article class="article">
+            <div class="heading">Input and its styles</div>
+            <div class="examples">
+              <div class="input-container">
+                <label for="" class="input-label inline">Enter Password:</label>
+                <input type="text" class="input" />
+              </div>
+
+              <div class="input-container input-error">
+                <label for="" class="input-label">Enter Password:</label>
+                <input type="text" class="input" />
+                <div class="error-msg">Wrong Password!</div>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522input-label%2520inline%2522%253EEnter%2520Password%253A%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-container%2520input-error%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522input-label%2522%253EEnter%2520Password%253A%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522error-msg%2522%253EWrong%2520Password%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 355px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
