@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/12af55b294.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../index.css" />
+
+    <title>Subtle UI</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar fixed">
+        <a href="./index.html" class="nav-heading">Subtle UI</a>
+        <ul class="nav-actions">
+          <li class="nav-action-item"><a href="../index.html">Home</a></li>
+          <li class="nav-action-item"><a href="../index.html">Docs</a></li>
+          <li class="nav-action-item">
+            <a href="https://github.com/bLAckBLAZER/Component-Library"
+              >Source</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <main class="main-page">
+        <aside class="aside">
+          <ul class="aside-list">
+            <li class="list-item">
+              <a href="../index.html">Getting Started</a>
+            </li>
+            <li class="list-item"><a href="./avatar.html">Avatar</a></li>
+            <li class="list-item active"><a href="./alert.html">Alert</a></li>
+            <li class="list-item"><a href="./badge.html">Badge</a></li>
+            <li class="list-item"><a href="./buttons.html">Buttons</a></li>
+            <li class="list-item"><a href="./card.html">Card</a></li>
+            <li class="list-item"><a href="./image.html">Image</a></li>
+            <li class="list-item"><a href="./input.html">Input</a></li>
+            <li class="list-item"><a href="./navbar.html">NavBar</a></li>
+            <li class="list-item"><a href="./snackbar.html">Snackbar</a></li>
+            <li class="list-item">
+              <a href="./typography.html">Typography</a>
+            </li>
+          </ul>
+        </aside>
+        <section class="content">
+          <div class="title">Typography</div>
+          <div class="heading">Introduction</div>
+          <p class="component-info">
+            Our library also provides styling for headers and texts.
+          </p>
+
+          <article class="article">
+            <div class="heading">Headings</div>
+            <p class="component-info">
+              We have 6 classes for all six heading from .h1 to .h6
+            </p>
+            <div class="examples" style="flex-direction: column">
+              <div class="h1">Heading</div>
+              <div class="h2">Heading</div>
+              <div class="h3">Heading</div>
+              <div class="h4">Heading</div>
+              <div class="h5">Heading</div>
+              <div class="h6">Heading</div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522h1%2522%253EHeading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h2%2522%253EHeading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h3%2522%253EHeading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h4%2522%253EHeading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h5%2522%253EHeading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h6%2522%253EHeading%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 281px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Text sizes</div>
+            <p class="component-info">
+              We have 3 different size classes for text: small, medium and large
+            </p>
+            <div class="examples" style="flex-direction: column">
+              <div class="txt-sm">Hello there!</div>
+              <div class="txt-md">Hello there!</div>
+              <div class="txt-lg">Hello there!</div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522txt-sm%2522%253EHello%2520there%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522txt-md%2522%253EHello%2520there%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522txt-lg%2522%253EHello%2520there%21%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 225px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Text allignments</div>
+            <p class="component-info">
+              You can allign your texts to left, right or center position as you
+              need.
+            </p>
+            <div
+              class="examples"
+              style="flex-direction: column; align-items: initial"
+            >
+              <p class="txt-md txt-left">Left alligned</p>
+              <p class="txt-md txt-center">Center alligned</p>
+              <p class="txt-md txt-right">Right alligned</p>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522txt-md%2520txt-left%2522%253ELeft%2520alligned%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-md%2520txt-center%2522%253ECenter%2520alligned%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-md%2520txt-right%2522%253ERight%2520alligned%253C%252Fp%253E"
+                style="
+                  width: 733px;
+                  height: 225px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Text Styles</div>
+            <p class="component-info">
+              There are other stylings available as well
+            </p>
+            <div class="examples" style="flex-direction: column">
+              <p class="txt-md txt-strike">Striked text</p>
+              <p class="txt-md txt-underline">Underlined text</p>
+              <p class="txt-md txt-grey">Grey text</p>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522txt-md%2520txt-strike%2522%253EStriked%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-md%2520txt-underline%2522%253EUnderlined%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522txt-md%2520txt-grey%2522%253EGrey%2520text%253C%252Fp%253E"
+                style="
+                  width: 733px;
+                  height: 225px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
