@@ -2,7 +2,7 @@
   --primary-color: #20bdff;
   --secondary-color: #181818;
   --text-color: #ffffff;
-  --inactive-color: grey;
+  --inactive-color: #999999;
 
   --default-background-color: #f2f2f2;
 
@@ -11,7 +11,7 @@
   --radius: 4px;
   --radius-large: 6px;
   --radius-extra-large: 10px;
-  --radius-rounded: 9999px;
+  --radius-rounded: 50%;
 
   /* font weight */
   --weight-light: 300;
@@ -52,8 +52,12 @@
   /* Color variables */
 
   --pure-white: #ffffff;
+  --grey: #727289;
+  --light-grey: #727272;
+  --default-hover-background: whitesmoke;
 
   --default-btn-color: #1e293b;
   --error-red: #dc2626;
   --success-green: #22c55e;
+  --text-overlay-bg: rgba(32, 189, 255, 0.2);
 }

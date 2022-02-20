@@ -1,0 +1,156 @@
+.card {
+  display: flex;
+  border: 1px solid var(--inactive-color);
+  flex-direction: column;
+  margin: 1rem 0.5rem;
+  max-height: 30%;
+  max-width: 22.5rem;
+  min-width: 12.5rem;
+  border-radius: var(--radius);
+  font-family: Roboto, sans-serif;
+}
+
+.card-ecom {
+  width: 13.125rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-heading {
+  padding: 1rem;
+}
+
+/* To show heading at top before img */
+.card-heading-top .card-heading {
+  order: -1;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-subtitle {
+  color: var(--grey);
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 200;
+  color: var(--light-grey);
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.card-body:hover {
+  background-color: var(--default-hover-background);
+  cursor: pointer;
+}
+
+/* Shift heading up by its total height */
+.card-txt-over-img .card-heading {
+  margin-top: -4.687rem;
+  background-color: var(--text-overlay-bg);
+}
+
+.card-txt-over-img .card-title,
+.card-txt-over-img .card-subtitle {
+  color: var(--pure-white);
+  text-shadow: #000 0px 0px 10px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-horizontal {
+  max-width: 50rem;
+}
+
+.card-horizontal .card-body {
+  flex-direction: row;
+}
+
+.card-horizontal .card-img {
+  height: 6.25rem;
+  width: 6.25rem;
+}
+
+.card-horizontal .card-text {
+  display: none;
+}
+
+.card-only-text .card-text {
+  height: 10rem;
+  overflow-y: scroll;
+  margin-bottom: 0.5rem;
+}
+
+.card-only-text .card-img,
+.card-only-text .card-actions {
+  display: none;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+}
+
+.card-ecom .btn {
+  max-width: 100%;
+}
+
+.card-footer i {
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.card-footer i:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.card-ecom .badge-text {
+  top: 1rem;
+  left: 0;
+  right: auto;
+  bottom: auto;
+}
+
+.card-icon-float {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: auto;
+  bottom: auto;
+  font-size: 1.5rem;
+  color: var(--inactive-color);
+}
+
+.card-icon-float:hover {
+  color: var(--error-red);
+}
+
+.card-shadow {
+  border: none;
+  box-shadow: 0 0 15px rgb(192, 192, 192);
+}

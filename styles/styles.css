@@ -1,10 +1,4 @@
 @import url(./reset/reset.css);
 @import url(./utilities/colors.css);
+@import url(./utilities/variables.css);
 @import url(./components/components.css);
-
-:root {
-  --primary-color: hsl(196, 77%, 55%);
-  --secondary-color: #181818;
-  --text-color: #ffffff;
-  --inactive-color: grey;
-}
