@@ -22,6 +22,7 @@
 
   /* sizing */
   --size-45: 10rem;
+  --size-27: 5.5rem;
   --size-25: 5rem;
   --size-24: 4.75rem;
   --size-23: 4.5rem;
@@ -60,4 +61,21 @@
   --error-red: #dc2626;
   --success-green: #22c55e;
   --text-overlay-bg: rgba(32, 189, 255, 0.2);
+
+  /* Alert colors */
+  --alert-primary: #93cde5;
+  --alert-error: #fed7d7;
+  --alert-warning: #fed7d7;
+  --alert-success: #c6f6d5;
+
+  --alert-primary-icon: #177bbd;
+  --alert-error-icon: #e53e3e;
+  --alert-warning-icon: #dd6b20;
+  --alert-success-icon: #38a169;
+
+  /* Badge statuses */
+
+  --badge-status-online: #38a169;
+  --badge-status-offline: #9ca3af;
+  --badge-status-busy: #e53e3e;
 }

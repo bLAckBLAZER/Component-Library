@@ -13,3 +13,11 @@
 .txt-purple {
   color: purple;
 }
+
+.bd-primary {
+  border-color: var(--primary-color);
+}
+
+.bd-secondary {
+  border-color: var(--secondary-color);
+}
