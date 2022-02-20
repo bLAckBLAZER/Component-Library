@@ -1,14 +1,5 @@
-/* Heading */
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: var(--primary-font-family);
-  line-height: 1.5;
-}
+/* Heading */
 
 .h1 {
   font-size: var(--size-17);
@@ -71,5 +62,29 @@
 }
 
 .txt-grey {
-  color: var(--color-grey);
+  color: var(--grey);
+}
+
+.bd {
+  border: 1px solid;
+}
+
+.bd2 {
+  border: 2px solid;
+}
+
+.bd3 {
+  border: 3px solid;
+}
+
+.bd4 {
+  border: 4px solid;
+}
+
+.bd5 {
+  border: 5px solid;
+}
+
+.bd6 {
+  border: 6px solid;
 }
