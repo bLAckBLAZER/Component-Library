@@ -27,7 +27,7 @@
   color: var(--primary-color);
 }
 
-.btn-link a{
+.btn-link a {
   font-weight: var(--weight-light);
   color: var(--primary-color);
 }
@@ -42,4 +42,28 @@
 
 .btn-icon i {
   margin-right: 0.5rem;
+}
+
+.btn:hover {
+  background-color: var(--btn-hover);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-btn-hover);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-btn-hover);
+}
+
+.btn-success:hover {
+  background-color: var(--success-btn-hover);
+}
+
+.btn-alert:hover {
+  background-color: var(--alert-btn-hover);
+}
+
+.btn-link:hover {
+  background-color: var(--secondary-btn-hover);
 }

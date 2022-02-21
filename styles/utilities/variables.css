@@ -78,4 +78,12 @@
   --badge-status-online: #38a169;
   --badge-status-offline: #9ca3af;
   --badge-status-busy: #e53e3e;
+
+  /* button hover colors */
+
+  --btn-hover: #2c3c55;
+  --primary-btn-hover: #00a2e7;
+  --secondary-btn-hover: whitesmoke;
+  --success-btn-hover: #1eb957;
+  --alert-btn-hover: #c52121;
 }
