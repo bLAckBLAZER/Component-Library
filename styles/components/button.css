@@ -44,6 +44,17 @@
   margin-right: 0.5rem;
 }
 
+.btn-float {
+  display: flex;
+  border-radius: var(--radius-rounded);
+  padding: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
 .btn:hover {
   background-color: var(--btn-hover);
 }

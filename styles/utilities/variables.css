@@ -55,7 +55,7 @@
   --pure-white: #ffffff;
   --grey: #727289;
   --light-grey: #727272;
-  --default-hover-background: whitesmoke;
+  --default-hover-background: #f1f5f9;
 
   --default-btn-color: #1e293b;
   --error-red: #dc2626;
@@ -83,7 +83,7 @@
 
   --btn-hover: #2c3c55;
   --primary-btn-hover: #00a2e7;
-  --secondary-btn-hover: whitesmoke;
+  --secondary-btn-hover: #f1f5f9;
   --success-btn-hover: #1eb957;
   --alert-btn-hover: #c52121;
 }
