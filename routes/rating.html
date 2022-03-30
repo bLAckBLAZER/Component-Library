@@ -39,47 +39,50 @@
             <li class="list-item"><a href="./card.html">Card</a></li>
             <li class="list-item"><a href="./image.html">Image</a></li>
             <li class="list-item"><a href="./input.html">Input</a></li>
-            <li class="list-item active"><a href="./navbar.html">NavBar</a></li>
-            <li class="list-item"><a href="./snackbar.html">Snackbar</a></li>
+            <li class="list-item"><a href="./navbar.html">NavBar</a></li>
+            <li class="list-item">
+              <a href="./snackbar.html">Snackbar</a>
+            </li>
             <li class="list-item">
               <a href="./typography.html">Typography</a>
             </li>
-            <li class="list-item">
+            <li class="list-item active">
               <a href="./rating.html">Rating</a>
             </li>
           </ul>
         </aside>
         <section class="content">
-          <div class="title">NavBar</div>
+          <div class="title">Rating</div>
           <div class="heading">Introduction</div>
           <p class="component-info">
-            A navigation bar is a navigation header that is placed at the top of
-            the page
+            A rating can be used mainly on any ecommerce or product advertising
+            page to get user feedback for a product or to filter them based on
+            their rating values.
           </p>
 
           <article class="article">
-            <div class="heading">Navbar with heading</div>
+            <div class="heading">Rating (for ecommerce)</div>
             <p class="component-info">
-              A navbar will have a heading at the leftmost end and action items
-              at right end.
+              You can add icons with .far and .fas classes inside
+              rating-container class to create your rating component. That's how
+              easy it is!
             </p>
             <div class="examples">
-              <nav class="navbar fixed">
-                <a href="#" class="nav-heading">Subtle UI</a>
-                <ul class="nav-actions">
-                  <li class="nav-action-item"><a href="#">Home</a></li>
-                  <li class="nav-action-item"><a href="#">Docs</a></li>
-                  <li class="nav-action-item"><a href="#">Source</a></li>
-                </ul>
-              </nav>
+              <div class="rating-container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
             </div>
 
             <div class="examples-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2520fixed%2522%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-heading%2522%253ESubtle%2520UI%253C%252Fa%253E%250A%2520%2520%253Cul%2520class%253D%2522nav-actions%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-action-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-action-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EDocs%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-action-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ESource%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fnav%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
                 style="
                   width: 733px;
-                  height: 318px;
+                  height: 299px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;

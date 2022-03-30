@@ -2,8 +2,7 @@
   --primary-color: #20bdff;
   --secondary-color: #181818;
   --text-color: #ffffff;
-  --inactive-color: #999999;
-
+  --inactive-color: hsl(0, 0%, 60%);
   --default-background-color: #f2f2f2;
 
   /* border radius */
@@ -56,6 +55,7 @@
   --grey: #727289;
   --light-grey: #727272;
   --default-hover-background: #f1f5f9;
+  --default-rating-color: #facc15;
 
   --default-btn-color: #1e293b;
   --error-red: #dc2626;
