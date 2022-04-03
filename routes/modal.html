@@ -46,7 +46,7 @@
             <li class="list-item">
               <a href="./typography.html">Typography</a>
             </li>
-            <li class="list-item active">
+            <li class="list-item">
               <a href="./rating.html">Rating</a>
             </li>
             <li class="list-item">
@@ -55,34 +55,43 @@
             <li class="list-item">
               <a href="./lists.html">Lists</a>
             </li>
-            <li class="list-item">
+            <li class="list-item active">
               <a href="./modal.html">Modal</a>
             </li>
           </ul>
         </aside>
         <section class="content">
-          <div class="title">Rating</div>
+          <div class="title">Modal</div>
           <div class="heading">Introduction</div>
           <p class="component-info">
-            A rating can be used mainly on any ecommerce or product advertising
-            page to get user feedback for a product or to filter them based on
-            their rating values.
+            A modal is a dialog box/popup window that is displayed on top of the
+            current page
           </p>
 
           <article class="article">
-            <div class="heading">Rating (for ecommerce)</div>
-            <p class="component-info">
-              You can add icons with .far and .fas classes inside
-              rating-container class to create your rating component. That's how
-              easy it is!
-            </p>
             <div class="examples">
-              <div class="rating-container">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
+              <button class="btn btn-secondary" id="click-modal">
+                Show Modal
+              </button>
+
+              <div class="modal-container hidden">
+                <div class="modal">
+                  <div class="h3 txt-center">Are you sure?</div>
+                  <div class="modal-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Reprehenderit nobis officiis porro cupiditate aliquid quia
+                    quam architecto omnis, laborum fugiat voluptas, sequi
+                    similique vero suscipit a fugit eos! Quaerat, id! Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Odit
+                    expedita commodi officia architecto. Placeat officia quasi
+                    rerum, dolores voluptatum unde id commodi odit impedit
+                    consequuntur amet veritatis quae repudiandae autem.
+                  </div>
+                  <div class="modal-actions">
+                    <button class="btn btn-success" id="btn-yes">Yes</button>
+                    <button class="btn btn-alert" id="btn-no">No</button>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -104,5 +113,20 @@
         </section>
       </main>
     </div>
+    <script>
+      const btnModal = document.querySelector("#click-modal");
+      const modal = document.querySelector(".modal-container");
+      const btnYes = document.querySelector("#btn-yes");
+      const btnNo = document.querySelector("#btn-no");
+
+      const toggleModal = () => {
+        modal.classList.toggle("hidden");
+      };
+
+      btnModal.addEventListener("click", toggleModal);
+
+      btnYes.addEventListener("click", toggleModal);
+      btnNo.addEventListener("click", toggleModal);
+    </script>
   </body>
 </html>
