@@ -60,6 +60,14 @@
   width: 100%;
 }
 
+.mg-x-1 {
+  margin: 0 1rem;
+}
+
+.mg-x-2 {
+  margin: 0 2rem;
+}
+
 .mg-y-1 {
   margin: 2rem 0;
 }
@@ -97,4 +105,8 @@
 
 .left-50 {
   left: 30%;
+}
+
+.gap-1 {
+  gap: 1rem;
 }
