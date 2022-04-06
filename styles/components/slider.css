@@ -1,0 +1,13 @@
+.slider {
+  width: 100%;
+}
+
+.slider-ticks {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.slider-ticks option {
+  display: inline;
+}
