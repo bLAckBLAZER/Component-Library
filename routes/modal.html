@@ -15,7 +15,11 @@
   <body>
     <div class="wrapper">
       <nav class="navbar fixed">
-        <a href="../index.html" class="nav-heading">Subtle UI</a>
+        <div class="nav-title">
+          <i class="fas fa-bars hamburger"></i>
+          <a href="../index.html" class="nav-heading">Subtle UI</a>
+        </div>
+
         <ul class="nav-actions">
           <li class="nav-action-item"><a href="../index.html">Home</a></li>
           <li class="nav-action-item"><a href="../index.html">Docs</a></li>
@@ -26,6 +30,7 @@
           </li>
         </ul>
       </nav>
+      <div class="space-2"></div>
       <main class="main-page">
         <aside class="aside">
           <ul class="aside-list">
@@ -99,10 +104,17 @@
             </div>
 
             <div class="examples-code">
-                <iframe
+              <iframe
                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2520hidden%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522h3%2520txt-center%2522%253EAre%2520you%2520sure%253F%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-desc%2522%253E%250A%2509%2509Description%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%2520id%253D%2522btn-yes%2522%253EYes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-alert%2522%2520id%253D%2522btn-no%2522%253ENo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                style="width: 733px; height: 392px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
+                style="
+                  width: 733px;
+                  height: 392px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
               </iframe>
             </div>
           </article>
