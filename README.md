@@ -15,6 +15,12 @@ Our library contains below components which are ready for your use:
 * Navbar
 * Snackbar (Toast)
 * Typography
+* Rating
+* Grids
+* Lists
+* Modal
+* Slider
+
 
 ## Getting Started
 
