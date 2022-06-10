@@ -43,13 +43,15 @@
             <li class="list-item"><a href="./buttons.html">Buttons</a></li>
             <li class="list-item"><a href="./card.html">Card</a></li>
             <li class="list-item"><a href="./image.html">Image</a></li>
-            <li class="list-item active"><a href="./input.html">Input</a></li>
+            <li class="list-item"><a href="./input.html">Input</a></li>
             <li class="list-item"><a href="./navbar.html">NavBar</a></li>
-            <li class="list-item"><a href="./snackbar.html">Snackbar</a></li>
+            <li class="list-item">
+              <a href="./snackbar.html">Snackbar</a>
+            </li>
             <li class="list-item">
               <a href="./typography.html">Typography</a>
             </li>
-            <li class="list-item">
+            <li class="list-item active">
               <a href="./rating.html">Rating</a>
             </li>
             <li class="list-item">
@@ -67,36 +69,37 @@
           </ul>
         </aside>
         <section class="content">
-          <div class="title">Input</div>
+          <div class="title">Rating</div>
           <div class="heading">Introduction</div>
           <p class="component-info">
-            Inputs will most likely be used in forms when some input is needed
-            from a user for some processing. We also have error input style to
-            alert the user if the input is wrong or does not match the
-            requirements.
+            A rating can be used mainly on any ecommerce or product advertising
+            page to get user feedback for a product or to filter them based on
+            their rating values.
           </p>
 
           <article class="article">
-            <div class="heading">Input and its styles</div>
+            <div class="heading">Rating (for ecommerce)</div>
+            <p class="component-info">
+              You can add icons with .far and .fas classes inside
+              rating-container class to create your rating component. That's how
+              easy it is!
+            </p>
             <div class="examples">
-              <div class="input-container">
-                <label for="" class="input-label inline">Enter Password:</label>
-                <input type="text" class="input" />
-              </div>
-
-              <div class="input-container input-error">
-                <label for="" class="input-label">Enter Password:</label>
-                <input type="text" class="input" />
-                <div class="error-msg">Wrong Password!</div>
+              <div class="rating-container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
               </div>
             </div>
 
             <div class="examples-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522input-label%2520inline%2522%253EEnter%2520Password%253A%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-container%2520input-error%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522input-label%2522%253EEnter%2520Password%253A%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522error-msg%2522%253EWrong%2520Password%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
                 style="
                   width: 733px;
-                  height: 355px;
+                  height: 299px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;

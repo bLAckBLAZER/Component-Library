@@ -15,7 +15,11 @@
   <body>
     <div class="wrapper">
       <nav class="navbar fixed">
-        <a href="../index.html" class="nav-heading">Subtle UI</a>
+        <div class="nav-title">
+          <i class="fas fa-bars hamburger"></i>
+          <a href="../index.html" class="nav-heading">Subtle UI</a>
+        </div>
+
         <ul class="nav-actions">
           <li class="nav-action-item"><a href="../index.html">Home</a></li>
           <li class="nav-action-item"><a href="../index.html">Docs</a></li>
@@ -26,6 +30,7 @@
           </li>
         </ul>
       </nav>
+      <div class="space-2"></div>
       <main class="main-page">
         <aside class="aside">
           <ul class="aside-list">
@@ -44,10 +49,25 @@
             <li class="list-item">
               <a href="./typography.html">Typography</a>
             </li>
+            <li class="list-item">
+              <a href="./rating.html">Rating</a>
+            </li>
+            <li class="list-item">
+              <a href="./grids.html">Grids</a>
+            </li>
+            <li class="list-item">
+              <a href="./lists.html">Lists</a>
+            </li>
+            <li class="list-item">
+              <a href="./modal.html">Modal</a>
+            </li>
+            <li class="list-item">
+              <a href="./slider.html">Slider</a>
+            </li>
           </ul>
         </aside>
         <section class="content">
-          <div class="title">NavBar</div>
+          <div class="title">NavBar (Responsive)</div>
           <div class="heading">Introduction</div>
           <p class="component-info">
             A navigation bar is a navigation header that is placed at the top of
@@ -58,11 +78,27 @@
             <div class="heading">Navbar with heading</div>
             <p class="component-info">
               A navbar will have a heading at the leftmost end and action items
-              at right end.
+              at right end. It can also have a searchbar at its center which
+              will be hidden if the screen size decreases. Along with it, it may
+              also contain a hamburger icon at its start which will be hidden at
+              first and will be displayed after screen size decreases to a
+              certain point.
             </p>
             <div class="examples">
-              <nav class="navbar fixed">
-                <a href="#" class="nav-heading">Subtle UI</a>
+              <nav class="navbar fixed flex-1">
+                <div class="nav-title">
+                  <i class="fas fa-bars hamburger"></i>
+                  <a href="#" class="nav-heading">Subtle UI</a>
+                </div>
+
+                <div class="search-bar">
+                  <input
+                    type="text"
+                    class="input"
+                    placeholder="What do you want to wear today?"
+                  />
+                </div>
+
                 <ul class="nav-actions">
                   <li class="nav-action-item"><a href="#">Home</a></li>
                   <li class="nav-action-item"><a href="#">Docs</a></li>

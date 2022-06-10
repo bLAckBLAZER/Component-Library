@@ -1,0 +1,11 @@
+.rating-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  gap: 0.5rem;
+}
+
+.rating-container .fas {
+  color: var(--default-rating-color);
+}

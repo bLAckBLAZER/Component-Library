@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/12af55b294.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../index.css" />
+
+    <title>Subtle UI</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar fixed">
+        <div class="nav-title">
+          <i class="fas fa-bars hamburger"></i>
+          <a href="../index.html" class="nav-heading">Subtle UI</a>
+        </div>
+
+        <ul class="nav-actions">
+          <li class="nav-action-item"><a href="../index.html">Home</a></li>
+          <li class="nav-action-item"><a href="../index.html">Docs</a></li>
+          <li class="nav-action-item">
+            <a href="https://github.com/bLAckBLAZER/Component-Library"
+              >Source</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="space-2"></div>
+      <main class="main-page">
+        <aside class="aside">
+          <ul class="aside-list">
+            <li class="list-item">
+              <a href="../index.html">Getting Started</a>
+            </li>
+            <li class="list-item"><a href="./avatar.html">Avatar</a></li>
+            <li class="list-item"><a href="./alert.html">Alert</a></li>
+            <li class="list-item"><a href="./badge.html">Badge</a></li>
+            <li class="list-item"><a href="./buttons.html">Buttons</a></li>
+            <li class="list-item"><a href="./card.html">Card</a></li>
+            <li class="list-item"><a href="./image.html">Image</a></li>
+            <li class="list-item"><a href="./input.html">Input</a></li>
+            <li class="list-item"><a href="./navbar.html">NavBar</a></li>
+            <li class="list-item">
+              <a href="./snackbar.html">Snackbar</a>
+            </li>
+            <li class="list-item">
+              <a href="./typography.html">Typography</a>
+            </li>
+            <li class="list-item">
+              <a href="./rating.html">Rating</a>
+            </li>
+            <li class="list-item active">
+              <a href="./grids.html">Grids</a>
+            </li>
+            <li class="list-item">
+              <a href="./lists.html">Lists</a>
+            </li>
+            <li class="list-item">
+              <a href="./modal.html">Modal</a>
+            </li>
+            <li class="list-item">
+              <a href="./slider.html">Slider</a>
+            </li>
+          </ul>
+        </aside>
+        <section class="content">
+          <div class="title">Grids</div>
+          <div class="heading">Introduction</div>
+          <p class="component-info">
+            Grids can be very powerful and easy at the same time while
+            desigining your page. It makes creating the layouts of the page way
+            easier.
+          </p>
+
+          <article class="article">
+            <div class="heading">Grid with equal sized columns</div>
+            <p class="component-info">
+              You can create a grid with multiple equal sized columns using
+              classes grid-2-col, grid-3-col or grid-4-col as needed.
+            </p>
+            <div class="examples flex-col">
+              <div class="grid-2-col width-100">
+                <div class="txt-md txt-center border-1">Column 1</div>
+                <div class="txt-md txt-center border-1">Column 2</div>
+              </div>
+
+              <div class="space-1"></div>
+
+              <div class="grid-3-col width-100">
+                <div class="txt-md txt-center border-1">Column 1</div>
+                <div class="txt-md txt-center border-1">Column 2</div>
+                <div class="txt-md txt-center border-1">Column 3</div>
+              </div>
+
+              <div class="space-1"></div>
+
+              <div class="grid-4-col width-100">
+                <div class="txt-md txt-center border-1">Column 1</div>
+                <div class="txt-md txt-center border-1">Column 2</div>
+                <div class="txt-md txt-center border-1">Column 3</div>
+                <div class="txt-md txt-center border-1">Column 4</div>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-2-col%2520width-100%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522space-1%2522%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-3-col%2520width-100%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25202%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25203%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522space-1%2522%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-4-col%2520width-100%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25202%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25203%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25204%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 560px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="heading">Grid with columns with different ratios</div>
+            <p class="component-info">
+              You can also create grids having columns with different ratios
+              using classes like grid-20-80 to create a grid having one column
+              of 20% of parent conatiner and second column to have 80% of the
+              parent.
+            </p>
+            <div class="examples flex-col">
+              <div class="grid-20-80 width-100">
+                <div class="txt-md txt-center border-1">Column 1</div>
+                <div class="txt-md txt-center border-1">Column 2</div>
+              </div>
+
+              <div class="space-1"></div>
+
+              <div class="grid-30-70 width-100">
+                <div class="txt-md txt-center border-1">Column 1</div>
+                <div class="txt-md txt-center border-1">Column 2</div>
+              </div>
+
+              <div class="space-1"></div>
+
+              <div class="grid-40-60 width-100">
+                <div class="txt-md txt-center border-1">Column 1</div>
+                <div class="txt-md txt-center border-1">Column 2</div>
+              </div>
+
+              <div class="space-1"></div>
+
+              <div class="grid-60-40 width-100">
+                <div class="txt-md txt-center border-1">Column 1</div>
+                <div class="txt-md txt-center border-1">Column 2</div>
+              </div>
+
+              <div class="space-1"></div>
+
+              <div class="grid-70-30 width-100">
+                <div class="txt-md txt-center border-1">Column 1</div>
+                <div class="txt-md txt-center border-1">Column 2</div>
+              </div>
+
+              <div class="space-1"></div>
+
+              <div class="grid-80-20 width-100">
+                <div class="txt-md txt-center border-1">Column 1</div>
+                <div class="txt-md txt-center border-1">Column 2</div>
+              </div>
+            </div>
+
+            <div class="examples-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-20-80%2520width-100%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522space-1%2522%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-30-70%2520width-100%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522space-1%2522%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-40-60%2520width-100%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522space-1%2522%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-60-40%2520width-100%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522space-1%2522%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-70-30%2520width-100%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522space-1%2522%253E%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-80-20%2520width-100%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25201%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-md%2520txt-center%2520border-1%2522%253EColumn%25202%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 733px;
+                  height: 895px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

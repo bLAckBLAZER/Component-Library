@@ -45,7 +45,7 @@
             <li class="list-item"><a href="./image.html">Image</a></li>
             <li class="list-item"><a href="./input.html">Input</a></li>
             <li class="list-item"><a href="./navbar.html">NavBar</a></li>
-            <li class="list-item active">
+            <li class="list-item">
               <a href="./snackbar.html">Snackbar</a>
             </li>
             <li class="list-item">
@@ -60,7 +60,7 @@
             <li class="list-item">
               <a href="./lists.html">Lists</a>
             </li>
-            <li class="list-item">
+            <li class="list-item active">
               <a href="./modal.html">Modal</a>
             </li>
             <li class="list-item">
@@ -69,37 +69,46 @@
           </ul>
         </aside>
         <section class="content">
-          <div class="title">SnackBar</div>
+          <div class="title">Modal</div>
           <div class="heading">Introduction</div>
           <p class="component-info">
-            A snackbar, also known as Toast, is typically a short message shown
-            to the user at the bottom of the screen. It normally fades away
-            after few seconds.
+            A modal is a dialog box/popup window that is displayed on top of the
+            current page
           </p>
 
           <article class="article">
-            <div class="heading">Snackbar</div>
-            <p class="component-info">
-              A snackbar will have a message and am action item at the end. It
-              can also have icons instead of any buttons. By default, it's
-              position will fixed at the bottom
-            </p>
             <div class="examples">
-              <div class="snackbar">
-                <p class="snackbar-msg">
-                  Can't send photo. Retry in 5 seconds.
-                </p>
-                <a href="#" class="snackbar-btn">RETRY</a>
-                <i class="fas fa-times" aria-hidden="true"></i>
+              <button class="btn btn-secondary" id="click-modal">
+                Show Modal
+              </button>
+
+              <div class="modal-container hidden">
+                <div class="modal">
+                  <div class="h3 txt-center">Are you sure?</div>
+                  <div class="modal-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Reprehenderit nobis officiis porro cupiditate aliquid quia
+                    quam architecto omnis, laborum fugiat voluptas, sequi
+                    similique vero suscipit a fugit eos! Quaerat, id! Lorem
+                    ipsum dolor, sit amet consectetur adipisicing elit. Odit
+                    expedita commodi officia architecto. Placeat officia quasi
+                    rerum, dolores voluptatum unde id commodi odit impedit
+                    consequuntur amet veritatis quae repudiandae autem.
+                  </div>
+                  <div class="modal-actions">
+                    <button class="btn btn-success" id="btn-yes">Yes</button>
+                    <button class="btn btn-alert" id="btn-no">No</button>
+                  </div>
+                </div>
               </div>
             </div>
 
             <div class="examples-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522snackbar-msg%2522%253E%250A%2520%2520%2520%2520Can%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522snackbar-btn%2522%253ERETRY%253C%252Fa%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=733&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=48px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2520hidden%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522h3%2520txt-center%2522%253EAre%2520you%2520sure%253F%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-desc%2522%253E%250A%2509%2509Description%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%2520id%253D%2522btn-yes%2522%253EYes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-alert%2522%2520id%253D%2522btn-no%2522%253ENo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 style="
                   width: 733px;
-                  height: 299px;
+                  height: 392px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -112,5 +121,20 @@
         </section>
       </main>
     </div>
+    <script>
+      const btnModal = document.querySelector("#click-modal");
+      const modal = document.querySelector(".modal-container");
+      const btnYes = document.querySelector("#btn-yes");
+      const btnNo = document.querySelector("#btn-no");
+
+      const toggleModal = () => {
+        modal.classList.toggle("hidden");
+      };
+
+      btnModal.addEventListener("click", toggleModal);
+
+      btnYes.addEventListener("click", toggleModal);
+      btnNo.addEventListener("click", toggleModal);
+    </script>
   </body>
 </html>

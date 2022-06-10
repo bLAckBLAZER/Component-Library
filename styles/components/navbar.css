@@ -2,13 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 0;
+  padding: 1rem;
   background-color: var(--secondary-color);
   color: var(--text-color);
 }
 
+.nav-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .nav-heading {
-  padding: 1rem 0.5rem;
   color: var(--primary-color);
   font-size: 2rem;
   font-weight: var(--weight-semibold);
@@ -27,4 +32,42 @@
 .nav-action-item:hover {
   color: var(--primary-color);
   font-weight: var(--weight-bold);
+}
+
+.navbar .search-bar {
+  width: 30%;
+}
+
+.navbar .input {
+  width: 100%;
+  border-radius: 1rem;
+  margin: 0;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Hide searchbar and show hamburger icon */
+
+@media screen and (max-width: 950px) {
+  .navbar .search-bar {
+    display: none;
+  }
+
+  .navbar .nav-title {
+    flex: 1;
+  }
+  .navbar .hamburger {
+    display: block;
+  }
+}
+
+/* Hide navigation title */
+
+@media screen and (max-width: 480px) {
+  .nav-heading,
+  .navbar .btn {
+    display: none;
+  }
 }
